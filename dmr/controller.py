@@ -6,7 +6,6 @@ from typing import (
     ClassVar,
     Final,
     Generic,
-    TypeAlias,
     TypeVar,
 )
 
