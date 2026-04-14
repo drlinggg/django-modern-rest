@@ -52,8 +52,6 @@ _SerializerT_co = TypeVar(
 
 _ResponseT = TypeVar('_ResponseT', bound=HttpResponse)
 
-_EndpointFunc: TypeAlias = Callable[..., Any]
-
 
 class Controller(Generic[_SerializerT_co], View):  # noqa: WPS214
     """
